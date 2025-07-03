@@ -18,8 +18,6 @@
   </a>
 </p>
 
-
-
 ---
 
 ## 🤖 About
@@ -101,6 +99,7 @@ Refer to the full list in [`.envtemplate`](https://github.com/Trinity-Mods/files
 
 - 🧠 [@trinityXmods](https://t.me/trinityXmods) – Core Developer  
 - 🎓 [@velvetexams](https://t.me/velvetexams) – System Architect  
+- 🔬 [@the_universal_being](https://t.me/the_universal_being) – Mastermind  
 
 ---
 
@@ -112,8 +111,9 @@ If you find this project useful, please:
 - 📢 Share it with others  
 - 🧑‍💻 Contribute or report issues  
 
-**GitHub**: [Trinity-Mods](https://github.com/Trinity-Mods)  
-**Telegram**: [@trinitymods](https://t.me/trinitymods)
+📦 **GitHub**: [Trinity-Mods](https://github.com/Trinity-Mods)  
+📢 **Telegram**: [@trinitymods](https://t.me/trinitymods)  
+🤝 **Collaborations / Custom Bots**: Contact [@the_universal_being](https://t.me/the_universal_being) directly on Telegram.
 
 > *Built with purpose. Delivered with power.*
 
