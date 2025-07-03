@@ -51,9 +51,13 @@
 
 Choose your preferred platform:
 
-[![Heroku Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-[![Railway Deploy](https://railway.app/button.svg)](https://railway.app/new/template/1jKLr4)
+<br>
+
+[![Heroku Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)  
+[![Railway Deploy](https://railway.app/button.svg)](https://railway.app/new/template/1jKLr4)  
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Trinity-Mods/filestore&branch=main&name=TrinityFileBot)
+
+<br>
 
 Or deploy manually on your VPS:
 
@@ -97,9 +101,19 @@ Refer to the full list in [`.envtemplate`](https://github.com/Trinity-Mods/files
 
 ## 🧙‍♂️ Developers
 
-- 🧠 [@trinityXmods](https://t.me/trinityXmods) – Core Developer  
-- 🎓 [@velvetexams](https://t.me/velvetexams) – System Architect  
-- 🔬 [@the_universal_being](https://t.me/the_universal_being) – Mastermind  
+<p align="center">
+  <a href="https://t.me/trinityXmods">
+    <img src="https://img.shields.io/badge/🧠 TrinityXmods-Developer-blue?style=for-the-badge&logo=telegram" alt="TrinityXmods">
+  </a>
+  <br><br>
+  <a href="https://t.me/velvetexams">
+    <img src="https://img.shields.io/badge/🎓 Dr. Aarav-Architect-blueviolet?style=for-the-badge&logo=telegram" alt="Velvet Exams">
+  </a>
+  <br><br>
+  <a href="https://t.me/the_universal_being">
+    <img src="https://img.shields.io/badge/🔬 Ragnar Lothbrok-Mastermind-darkgreen?style=for-the-badge&logo=telegram" alt="The Universal Being">
+  </a>
+</p>
 
 ---
 
