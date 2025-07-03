@@ -12,128 +12,111 @@
 from operator import add
 import os
 import logging
-
-
-# import dotenv
-# dotenv.load_dotenv()
-# developed by @trinityXmods
-# do not remove credits
-
-
 from logging.handlers import RotatingFileHandler
 
-#force user to join your backup channel leave 0 if you don't need.
+# Specify the Telegram channel or group ID that users must join (force-subscribe) before using the bot.
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", ""))
 FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", ""))
 FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", ""))
 
 
-#bot stats
+# Display the Bot's Uptime
 BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME </b>\n{uptime}")
-#send custom message when user interact with bot
-USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "ꜱᴏʀʀʏ ʙᴜᴛ ᴏɴʟʏ ᴀᴜᴛʜᴏʀɪꜱᴇᴅ ᴀᴅᴍɪɴꜱ ꜰʀᴏᴍ <b>ɪɴꜰᴏʜᴜʙ ɴᴇᴛᴡᴏʀᴋꜱ</b> ᴄᴀɴ ᴜꜱᴇ ᴍᴇ ᴅɪʀᴇᴄᴛʟʏ.\n\nᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ᴀᴅᴍɪɴꜱ, ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍʏ ꜰʀɪᴇɴᴅ - @infohubsupport_robot")
+# Default reply sent to users when they message the bot directly.
+USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "Hi, I am made by @trinityXmods")
 
-#your bot token here from https://telegram.me/BotFather
+# Paste your bot token here (get it from https://t.me/BotFather)
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "AAE0nMZYJ5jmOJDk") 
-#your api id from https://my.telegram.org/apps
+# Provide the API ID associated with your Telegram application (from https://my.telegram.org/apps)
 APP_ID = int(os.environ.get("APP_ID", ""))
-#your api hash from https://my.telegram.org/apps
+# Provide the API Hash linked to your Telegram application (available at https://my.telegram.org/apps)
 API_HASH = os.environ.get("API_HASH", "")
-#your channel_id from https://t.me/MissRose_bot by forwarding dummy message to rose and applying command `/id` in reply to that message
+# Enter the channel ID of the database channel where all files will be stored.
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
-#your id of telegram can be found by https://t.me/MissRose_bot with '/id' command
+# Enter your personal Telegram user ID (you can get it by sending '/id' to https://t.me/MissRose_bot).
 OWNER_ID = int(os.environ.get("OWNER_ID", ""))
-#port set to default 8080
-PORT = os.environ.get("PORT", "6666")
-#your database url mongodb only You can use mongo atlas free cloud database
+#port set to default 8080, change according to your will.
+PORT = os.environ.get("PORT", "8080")
+# Enter your MongoDB connection URL. You can use a free cloud database from MongoDB Atlas.
 DB_URL = os.environ.get("DB_URL", "")
-#your database name
+# Enter the name of your MongoDB database.
 DB_NAME = os.environ.get("DB_NAME", "")
 
-#for creating telegram thread for bot to improve performance of the bot
+# Set the number of worker threads for the bot. To avoid sleeping issues and improve performance, keep it above 50 (recommended).
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "50"))
-#your start default command message.
+# Message displayed to users when they click the Start button or send the /start command.
 START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʟʟᴏ ᴛʜᴇʀᴇ {mention}!!🌚\n\nɪ ᴀᴍ ᴅᴇꜱɪɢɴᴇᴅ ᴛᴏ ꜱʜᴀʀᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ꜱᴘᴇᴄɪᴀʟ ʟɪɴᴋꜱ!! 🪄\n\nɪ ᴡᴏʀᴋ ᴡɪᴛʜɪɴ ɪɴꜰᴏʜᴜʙ ɴᴇᴛᴡᴏʀᴋꜱ ᴏɴʟʏ ᴀɴᴅ ʏᴏᴜ ᴀʀᴇ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴜꜱᴇ ᴍᴇ! 🎀")
-#your telegram tag without @
+# Enter your Telegram username (without @). A public username is required to use this bot.
 OWNER_TAG = os.environ.get("OWNER_TAG", "the_universal_being")
-#Time in seconds for message delete, put 0 to never delete
+# Time (in seconds) after which messages will be auto-deleted. Use 0 to keep messages permanently.
 TIME = int(os.environ.get("TIME", "600"))
 
+# Toggle this feature by setting the value inside to either True (on) or False (off).
+# TRUE for yes FALSE if no
 
-#Shortner (token system) 
-"""
-some token verification sites
-https://dashboard.shareus.io/
-"""
-
-# Turn this feature on or off using True or False put value inside  ""
-# TRUE for yes FALSE if no 
+# Do you want to enable shortner in this bot? Set to TRUE for yes, False for no.
 USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "TRUE") == "TRUE" else False 
-# only shareus service known rightnow rest you can test on your own
+# Enter the base URL of the shortlink service (without https://).
 SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "gplinks.com")
-# SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "beb3b795a226177f3af7c937a2f01d5d7d4f4cf0")
-#use this key if not working ☠️ (jokin!!)
+# Enter the API key provided by your chosen shortner service.
 SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "")
-#add your custom time in secs for shortlink expiration.
-# 24hr = 86400
-# 12hr = 43200
+# Set a custom expiration time (in seconds) for the shortlink.
+# Example: 24 hours = 86400, 12 hours = 43200
+# This method is useful only if U_S_E_P or rather the token verification system is enabled in the bot.
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', "43200")) # Add time in seconds
-#put TRUE if you want shortner in every link generated by the bot.
+# Enable to apply shortner to every link generated by the bot (set to TRUE).
 U_S_E_P = True if (True if os.environ.get('U_S_E_P', "TRUE") == "TRUE" else False) and (USE_SHORTLINK) else False
-#Tutorial video for the user of your shortner on how to download.
+# Provide a tutorial video URL to guide users on how to download via your shortlink.
 TUT_VID = os.environ.get("TUT_VID","https://t.me/infohub_updates/34")
 
-
-
-
-
-#Payment to remove the token system
-#put TRUE if you want this feature
+# Enable payment system to allow users to remove token limits or purchase premium features.
+# Set to TRUE to activate payments in the bot and earn money.
 USE_PAYMENT = True if (True if os.environ.get("USE_PAYMENT", "TRUE") == "TRUE" else False) and (USE_SHORTLINK) else False
-#UPI ID
+# Enter your UPI ID for receiving payments.
 UPI_ID = os.environ.get("UPI_ID", "sendrajbooks@fam")
-#UPI QR CODE IMAGE
+# Enter the direct image URL of your UPI QR code (used for payment).
 UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "https://envs.sh/Vpg.jpg")
-#SCREENSHOT URL of ADMIN for verification of payments
+#No need to change anything here.
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/{OWNER_TAG}")
-#Time and its price
-#7 Days
-PRICE1 = os.environ.get("PRICE1", "20 INR")
-#1 Month
-PRICE2 = os.environ.get("PRICE2", "50 INR")
-#3 Month
-PRICE3 = os.environ.get("PRICE3", "80 INR")
-#6 Month
-PRICE4 = os.environ.get("PRICE4", "150 INR")
-#1 Year
-PRICE5 = os.environ.get("PRICE5", "285 INR")
+# Define subscription durations and their respective prices:
+# Duration: 7 Days
+# Only change the prices and currency, nothing else.
+PRICE1 = os.environ.get("PRICE1", "₹20")
+
+# Duration: 1 Month
+PRICE2 = os.environ.get("PRICE2", "₹50")
+
+# Duration: 3 Months
+PRICE3 = os.environ.get("PRICE3", "₹80")
+
+# Duration: 6 Months
+PRICE4 = os.environ.get("PRICE4", "₹150")
+
+# Duration: 1 Year
+PRICE5 = os.environ.get("PRICE5", "₹285")
 
 
-
-#force message for joining the channel
+# Message shown to users when they are required to join a channel or group (force subscription prompt).
 FORCE_MSG = os.environ.get("FORCE_MSG", "ʜᴇʟʟᴏ ᴛʜᴇʀᴇ {mention}!!👋\n\n<b>ɪɴ ᴏʀᴅᴇʀ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ꜰɪʟᴇꜱ, ʏᴏᴜ ᴀʀᴇ ʀᴇQᴜᴇꜱᴛᴇᴅ ᴛᴏ ꜱᴜᴘᴘᴏʀᴛ ᴜꜱ ʙʏ ᴊᴏɪɴɪɴɢ ᴛʜᴇ ᴄʜᴀɴɴᴇʟꜱ ᴀɴᴅ ɢʀᴏᴜᴘꜱ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ:</b>")
-#custom caption 
+# Enter a custom caption that will be auto-attached to files shared by the bot.
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• 𝐏𝐫𝐞𝐬𝐞𝐧𝐭𝐞𝐝 𝐛𝐲: @Bookslibraryofficial × @the_ancient_library</b>\n\n<b>• 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐭𝐨 𝐨𝐮𝐫 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 ➤ youtube.com/@pagesandvoices</b>")
-#protected content so that no files can be sent from the bot to anyone. recommended False
-# TRUE for yes FALSE if no
+# Protect content from being forwarded or saved. Set to TRUE to enable, FALSE to disable (recommended: FALSE).
 PROTECT_CONTENT = True if os.environ.get("PROTECT_CONTENT", "FALSE") == "TRUE" else False
-#used if you dont need buttons on database channel.
-# True for yes False if no
+# Use this option if you do not want buttons to appear on posts in the database channel.  
+# Set to TRUE to disable buttons, False to keep them.
 DISABLE_CHANNEL_BUTTON = True if os.environ.get("DISABLE_CHANNEL_BUTTON", "TRUE") == "TRUE" else False
-#you can add admin inside the bot(bug right now will fix later)
 
+# Add the Telegram user IDs of the bot admins. Separate multiple IDs with a space.  
+# Example: 6011680723 1234567890
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "  ").split()):
+    for x in (os.environ.get("ADMINS", "6011680723 6011680723").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
-
-
-
-#no need to add anything from now on
+# No modifications are required beyond this point. Proceed only if you know what you're doing.
 
 ADMINS.append(OWNER_ID)
 
