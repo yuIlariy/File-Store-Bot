@@ -1,18 +1,5 @@
 # 📁 File Store Bot
 
-<table>
-  <tr>
-    <td width="300px">
-      <img src="https://github.com/user-attachments/assets/f7653b1e-e2b1-4897-9de1-f830aca391b6" width="240px" alt="Trinity Mods Logo"/>
-    </td>
-    <td>
-      <a href="https://www.python.org">
-        <img src="http://ForTheBadge.com/images/badges/made-with-python.svg" width="230px" alt="Made with Python">
-      </a>
-    </td>
-  </tr>
-</table>
-
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2500&pause=500&color=33FFAA&width=700&lines=Bot+That+Stores+%26+Shares+Files+via+Special+Links;Includes+Code+System,+Premium+Access,+Shorteners+%26+More!" alt="Bot Features Animation">
 </p>
