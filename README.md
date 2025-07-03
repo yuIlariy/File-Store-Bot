@@ -51,11 +51,23 @@
 
 Choose your preferred platform:
 
-<br>
+<p align="center">
+  <a href="https://heroku.com/deploy">
+    <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku">
+  </a>
+</p>
 
-[![Heroku Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)  
-[![Railway Deploy](https://railway.app/button.svg)](https://railway.app/new/template/1jKLr4)  
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Trinity-Mods/filestore&branch=main&name=TrinityFileBot)
+<p align="center">
+  <a href="https://railway.app/new/template/1jKLr4">
+    <img src="https://railway.app/button.svg" alt="Deploy on Railway">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://app.koyeb.com/deploy?type=git&repository=github.com/Trinity-Mods/filestore&branch=main&name=TrinityFileBot">
+    <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy to Koyeb">
+  </a>
+</p>
 
 <br>
 
@@ -134,3 +146,4 @@ If you find this project useful, please:
 ---
 
 © 2025 Trinity Mods · Powered by InfoHub Networks
+
