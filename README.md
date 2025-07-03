@@ -12,12 +12,6 @@
   <tr>
     <td width="300px">
       <img src="https://github.com/user-attachments/assets/f7653b1e-e2b1-4897-9de1-f830aca391b6" width="240px" alt="Trinity Mods Logo"/>
-    </td>
-    <td>
-      <a href="https://www.python.org">
-        <img src="http://ForTheBadge.com/images/badges/made-with-python.svg" width="230px" alt="Made with Python">
-      </a>
-    </td>
   </tr>
 </table>
 
