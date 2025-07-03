@@ -1,7 +1,8 @@
 # 📁 File Store Bot
 
+
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2500&pause=500&color=33FFAA&width=800&lines=Bot+That+Stores+%26+Shares+Files+via+Special+Links;Includes+Code+System,+Premium+Access,+Shorteners+%26+More!" alt="Bot Features Animation">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2000&pause=500&color=33FFAA&center=true&vCenter=true&width=700&height=60&lines=Trinity+Mods+File+Store+Bot;Store+Files+as+Private+Links;Convert+Code+to+Download+Links;Enable+Premium+Access+for+Users;Add+Shortlinks+%26+Timers;Flexible%2C+Fast%2C+and+Secure" alt="Bot Features Animation">
 </p>
 
 
