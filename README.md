@@ -1,7 +1,7 @@
 # 📁 File Store Bot
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2500&pause=500&color=33FFAA&width=700&lines=Bot+That+Stores+%26+Shares+Files+via+Special+Links;Includes+Code+System,+Premium+Access,+Shorteners+%26+More!" alt="Bot Features Animation">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2500&pause=500&color=33FFAA&width=800&lines=Bot+That+Stores+%26+Shares+Files+via+Special+Links;Includes+Code+System,+Premium+Access,+Shorteners+%26+More!" alt="Bot Features Animation">
 </p>
 
 <p align="center">
@@ -29,8 +29,8 @@
 ## 🆕 Changelog Highlights
 
 - 🔐 **Code System** – Share access via simple codes instead of long URLs  
-- 🔁 **/ch2l Command** – Instantly convert codes into direct download links  
-- 🔗 **Global Shortener Support** – Automatically shorten all links  
+- 🔁 **Superb Speed** – Instantly convert files into links  
+- 🔗 **Global Shortener Support** – Automatically add shortner to all links  
 - ⏳ **Expiry Timer** – Automatically delete files after a defined period  
 - 💎 **Premium Mode** – Monetize your content with tiered access control  
 
@@ -39,10 +39,10 @@
 ## 💡 Key Features
 
 - 📎 Multi-file support with custom captions  
-- 🔒 Anti-forwarding (protected content)  
-- ➕ Force-subscribe up to 2 channels  
-- 🛠️ Fully customizable texts (start, caption, force-sub, etc.)  
-- 🔗 Optional shortlink integration with verification  
+- 🔒 Anti-forwarding + Anti-saving (protected content)  
+- ➕ Force-subscribe up to 4 channels/groups  
+- 🛠️ Fully customizable bot (start, caption, force-sub, etc.)  
+- 🔗 Optional shortner integration with token verification mode  
 - 💸 Inbuilt UPI/QR payment system for premium content  
 
 ---
@@ -88,12 +88,10 @@ python3 main.py
 |--------|-------------|
 | `/start` | Check if the bot is online |
 | `/ping` | Ping the bot |
-| `/ch2l` | Convert a code into a direct link |
 | `/stats` | Bot uptime (admin only) |
 | `/users` | View registered user count |
 | `/batch` | Generate bulk links (admin only) |
 | `/genlink` | Manually create a link (admin only) |
-| `/auth` | Grant access + notify owner |
 | `/add_prem` | Add premium access (admin only) |
 | `/restart` | Restart the bot (admin only) |
 | `/admins`, `/add_admin`, `/del_admin` | Admin control commands |
@@ -107,23 +105,19 @@ Refer to the full list in [`.envtemplate`](https://github.com/Trinity-Mods/files
 - **TG_BOT_TOKEN, APP_ID, API_HASH** – Telegram Bot credentials  
 - **DB_URL, DB_NAME, CHANNEL_ID, OWNER_ID, OWNER_TAG** – Core configurations  
 - **USE_SHORTLINK, SHORTLINK_API_KEY, VERIFY_EXPIRE, TUT_VID** – Shortlink & verification  
-- **USE_PAYMENT, UPI_ID, UPI_IMAGE_URL, PRICE1–PRICE5** – Payment integration  
+- **USE_PAYMENT, UPI_ID, UPI_IMAGE_URL** – Payment integration  
 
 ---
 
 ## 🧙‍♂️ Developers
 
 <p align="center">
-  <a href="https://t.me/trinityXmods">
-    <img src="https://img.shields.io/badge/🧠 TrinityXmods-Developer-blue?style=for-the-badge&logo=telegram" alt="TrinityXmods">
+  <a href="https://t.me/the_universal_being">
+    <img src="https://img.shields.io/badge/🔬 Ragnar Lothbrok-Mastermind-darkgreen?style=for-the-badge&logo=telegram" alt="The Universal Being">
   </a>
   <br><br>
   <a href="https://t.me/velvetexams">
-    <img src="https://img.shields.io/badge/🎓 Dr. Aarav-Architect-blueviolet?style=for-the-badge&logo=telegram" alt="Velvet Exams">
-  </a>
-  <br><br>
-  <a href="https://t.me/the_universal_being">
-    <img src="https://img.shields.io/badge/🔬 Ragnar Lothbrok-Mastermind-darkgreen?style=for-the-badge&logo=telegram" alt="The Universal Being">
+    <img src="https://img.shields.io/badge/🎓 Dr. Aarav-Assistant-blueviolet?style=for-the-badge&logo=telegram" alt="Velvet Exams">
   </a>
 </p>
 
@@ -137,13 +131,25 @@ If you find this project useful, please:
 - 📢 Share it with others  
 - 🧑‍💻 Contribute or report issues  
 
-📦 **GitHub**: [Trinity-Mods](https://github.com/Trinity-Mods)  
+<p align="center">
+  <a href="https://github.com/Trinity-Mods">
+    <img src="https://img.shields.io/badge/📦 GitHub-Trinity_Mod_Repo-black?style=for-the-badge&logo=github" alt="GitHub">
+  </a>
+  <br><br>
+  <a href="https://t.me/trinityXmods">
+    <img src="https://img.shields.io/badge/👨‍💻 @trinityXmods-Developer-blue?style=for-the-badge&logo=telegram" alt="TrinityXmods">
+  </a>
+</p>
+
 📢 **Telegram**: [@trinitymods](https://t.me/trinitymods)  
 🤝 **Collaborations / Custom Bots**: Contact [@the_universal_being](https://t.me/the_universal_being) directly on Telegram.
 
-> *Built with purpose. Delivered with power.*
+---
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=500&color=F7A41D&center=true&vCenter=true&width=800&lines=✨+Thank+You+for+Your+Support!+✨;We+Appreciate+You!+💖;Keep+Building,+Keep+Creating!+🚀" alt="Thank You Animation">
+</p>
 
 ---
 
 © 2025 Trinity Mods · Powered by InfoHub Networks
-
