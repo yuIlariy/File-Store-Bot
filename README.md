@@ -1,7 +1,7 @@
 # 📁 File Store Bot
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=2000&pause=1000&color=33FFAA&center=true&width=800&lines=📁+File+Store+Bot;⚡+Store+Any+File+Safely;🔗+Get+Shareable+Links+Instantly;💎+Premium+Access+Enabled;🛡️+Secure+%2B+Protected+Content;📦+Deploy+Anywhere+in+1+Click" alt="Bot Features Animation">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2500&pause=500&color=33FFAA&width=800&lines=Bot+That+Stores+%26+Shares+Files+via+Special+Links;Includes+Code+System,+Premium+Access,+Shorteners+%26+More!" alt="Bot Features Animation">
 </p>
 
 
