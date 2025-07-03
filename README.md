@@ -133,11 +133,11 @@ If you find this project useful, please:
 
 <p align="center">
   <a href="https://github.com/Trinity-Mods">
-    <img src="https://img.shields.io/badge/📦 GitHub-Trinity_Mods-black?style=for-the-badge&logo=github" alt="GitHub">
+    <img src="https://img.shields.io/badge/GitHub-Trinity_Mods-black?style=for-the-badge&logo=github" alt="GitHub">
   </a>
   <br><br>
   <a href="https://t.me/trinityXmods">
-    <img src="https://img.shields.io/badge/👨‍💻 Trinity_Mods-Updates-blue?style=for-the-badge&logo=telegram" alt="Trinity_Mods">
+    <img src="https://img.shields.io/badge/Trinity_Mods-Updates-blue?style=for-the-badge&logo=telegram" alt="Trinity_Mods">
   </a>
 </p>
 
