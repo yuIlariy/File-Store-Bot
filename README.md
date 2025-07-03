@@ -149,8 +149,9 @@ If you find this project useful, please:
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=F7A41D&width=800&lines=✨+Thank+You+for+Your+Support!;💖+We+Appreciate+You!;🚀+Keep+Building,+Keep+Creating!" alt="Thank You Animation">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=F7A41D&center=true&vCenter=true&width=800&lines=✨+Thank+You+for+Using+Our+Bot!+✨;We+Truly+Appreciate+Your+Support+💖;Stay+Tuned+for+More+Features!+🚀">
 </p>
+
 
 
 ---
