@@ -163,11 +163,4 @@ If you find this project useful, please:
 
 ---
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=33FFAA&center=true&vCenter=true&width=750&height=60&lines=✨+Thank+You+for+Using+Our+Bot!+✨;💖+We+Appreciate+Your+Support!+💖;🚀+Stay+Tuned+for+More+Features!+🚀" alt="Thank You Animation">
-</p>
-
-
----
-
 © 2025 Trinity Mods · Powered by InfoHub Networks
