@@ -130,11 +130,11 @@ Refer to the full list in [`.envtemplate`](https://github.com/Trinity-Mods/files
 
 <p align="center">
   <a href="https://t.me/the_universal_being">
-    <img src="https://img.shields.io/badge/🔬 Ragnar Lothbrok-Mastermind-darkgreen?style=for-the-badge&logo=telegram" alt="The Universal Being">
+    <img src="https://img.shields.io/badge/Ragnar Lothbrok-Mastermind-darkgreen?style=for-the-badge&logo=telegram" alt="The Universal Being">
   </a>
   <br><br>
   <a href="https://t.me/velvetexams">
-    <img src="https://img.shields.io/badge/🎓 Dr. Aarav-Assistant-blueviolet?style=for-the-badge&logo=telegram" alt="Velvet Exams">
+    <img src="https://img.shields.io/badge/Dr. Aarav Mehta-Assistant-blueviolet?style=for-the-badge&logo=telegram" alt="Velvet Exams">
   </a>
 </p>
 
