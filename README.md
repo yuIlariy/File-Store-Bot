@@ -137,7 +137,7 @@ If you find this project useful, please:
   </a>
   <br><br>
   <a href="https://t.me/trinityXmods">
-    <img src="https://img.shields.io/badge/👨‍💻 @trinityXmods-Updates-blue?style=for-the-badge&logo=telegram" alt="Trinity_Mods">
+    <img src="https://img.shields.io/badge/👨‍💻 Trinity_Mods-Updates-blue?style=for-the-badge&logo=telegram" alt="Trinity_Mods">
   </a>
 </p>
 
