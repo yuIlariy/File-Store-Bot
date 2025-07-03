@@ -102,12 +102,27 @@ python3 main.py
 
 ## ⚙️ Environment Variables
 
-Refer to the full list in [`.envtemplate`](https://github.com/Trinity-Mods/filestore/blob/main/.envtemplate.txt). Key variables include:
+Refer to the full list in [`.envtemplate`](https://github.com/Trinity-Mods/filestore/blob/main/.envtemplate.txt). Key environment variables:
 
-- **TG_BOT_TOKEN, APP_ID, API_HASH** – Telegram Bot credentials  
-- **DB_URL, DB_NAME, CHANNEL_ID, OWNER_ID, OWNER_TAG** – Core configurations  
-- **USE_SHORTLINK, SHORTLINK_API_KEY, VERIFY_EXPIRE, TUT_VID** – Shortlink & verification  
-- **USE_PAYMENT, UPI_ID, UPI_IMAGE_URL** – Payment integration  
+- `TG_BOT_TOKEN` – Telegram Bot Token  
+- `APP_ID` – Telegram API ID  
+- `API_HASH` – Telegram API Hash  
+
+- `DB_URL` – MongoDB URI  
+- `DB_NAME` – MongoDB Database Name  
+- `CHANNEL_ID` – Channel ID where files will be stored  
+- `OWNER_ID` – Telegram User ID of Bot Owner  
+- `OWNER_TAG` – Owner's Username for public contact  
+
+- `USE_SHORTLINK` – Set to True/False to enable link shortening  
+- `SHORTLINK_API_KEY` – Your API key for the shortener  
+- `VERIFY_EXPIRE` – Seconds before verification links expire  
+- `TUT_VID` – Optional video link to show how to use the bot  
+
+- `USE_PAYMENT` – Set to True/False to enable UPI payments  
+- `UPI_ID` – UPI ID to accept payments  
+- `UPI_IMAGE_URL` – UPI QR image link  
+  
 
 ---
 
@@ -149,7 +164,7 @@ If you find this project useful, please:
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2500&pause=700&color=F7A41D&center=true&vCenter=true&width=800&height=60&lines=✨+Thank+You+for+Using+Our+Bot!+✨;We+Truly+Appreciate+Your+Support+💖;Stay+Tuned+for+More+Features!+🚀" alt="Thank You Animation">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=33FFAA&center=true&vCenter=true&width=750&height=60&lines=✨+Thank+You+for+Using+Our+Bot!+✨;💖+We+Appreciate+Your+Support!+💖;🚀+Stay+Tuned+for+More+Features!+🚀" alt="Thank You Animation">
 </p>
 
 
