@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>Made with ❤️ by Trinity Mods</strong>
+  <strong>Made with ❤️ by :</strong>
 </p>
 
 <p align="center">
