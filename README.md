@@ -90,13 +90,12 @@ python3 main.py
 |--------|-------------|
 | `/start` | Check if the bot is online |
 | `/ping` | Ping the bot |
-| `/stats` | Bot uptime (admin only) |
+| `/stats` | Bot uptime |
 | `/users` | View registered user count |
-| `/batch` | Generate bulk links (admin only) |
-| `/genlink` | Manually create a link (admin only) |
+| `/batch` | Generate bulk links |
 | `/add_prem` | Add premium access (admin only) |
 | `/restart` | Restart the bot (admin only) |
-| `/admins`, `/add_admin`, `/del_admin` | Admin control commands |
+| `/admins`, `/add_admin`, `/del_admin` | Admin only commands |
 
 ---
 
