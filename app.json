@@ -6,7 +6,7 @@
       "file",
       "sharing"
     ],
-    "repository": "https://github.com/Sachinanand99/File-Sharing-Telegram-bot/tree/main",
+    "repository": "https://github.com/Trinity-Mods/File-Store-Bot/tree/main",
     "logo": "https://freeimage.host/i/FaO7wzP",
     "env": {
         "ADMINS" : {
