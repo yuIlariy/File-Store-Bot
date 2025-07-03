@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2000&pause=500&color=33FFAA&center=true&vCenter=true&width=700&height=60&lines=Trinity+Mods+File+Store+Bot;Store+Files+as+Private+Links;Convert+Code+to+Download+Links;Enable+Premium+Access+for+Users;Add+Shortlinks+%26+Timers;Flexible%2C+Fast%2C+and+Secure" alt="Bot Features Animation">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2000&pause=500&color=33FFAA&center=true&vCenter=true&width=700&height=60&lines=Trinity+Mods+File+Store+Bot;Store+Files+as+Private+Links;Convert+Files+to+Direct+Links;Enable+Premium+Access+for+Users;Add+Shortlinks+%26+Timers;Flexible%2C+Fast%2C+and+Secure" alt="Bot Features Animation">
 </p>
 
 
