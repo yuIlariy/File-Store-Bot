@@ -1,4 +1,4 @@
-# Trinity File Store Bot
+File Store Bot
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=DC143C&center=true&vCenter=true&width=650&height=100&lines=Welcome+to+Trinity+Mods!;Premium+Mods,+Smart+Bots+%26+Next-Gen+Tools;Built+with+Purpose.+Delivered+with+Power.">
