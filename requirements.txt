@@ -1,0 +1,36 @@
+# ────────────────────────────────────────────────────────────────
+
+# ✅ THIS PROJECT IS DEVELOPED AND MAINTAINED BY @trinityXmods (TELEGRAM)
+# 🚫 DO NOT REMOVE OR ALTER THIS CREDIT LINE UNDER ANY CIRCUMSTANCES.
+
+# ⭐ FOR MORE HIGH-QUALITY OPEN-SOURCE BOTS, FOLLOW US ON GITHUB.
+# 📩 NEED HELP OR HAVE QUESTIONS? REACH OUT VIA TELEGRAM: @velvetexams
+
+# ────────────────────────────────────────────────────────────────
+
+pyrofork
+TgCrypto
+pyromod==1.5
+python-dotenv
+pymongo
+motor
+umongo
+marshmallow
+dnspython
+pytz
+requests
+bs4
+shortzy
+aiohttp
+aiofiles
+asyncio
+
+# ────────────────────────────────────────────────────────────────
+
+# ✅ THIS PROJECT IS DEVELOPED AND MAINTAINED BY @trinityXmods (TELEGRAM)
+# 🚫 DO NOT REMOVE OR ALTER THIS CREDIT LINE UNDER ANY CIRCUMSTANCES.
+
+# ⭐ FOR MORE HIGH-QUALITY OPEN-SOURCE BOTS, FOLLOW US ON GITHUB.
+# 📩 NEED HELP OR HAVE QUESTIONS? REACH OUT VIA TELEGRAM: @velvetexams
+
+# ────────────────────────────────────────────────────────────────
