@@ -1,10 +1,8 @@
 # 📁 File Store Bot
 
-
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2000&pause=500&color=33FFAA&center=true&vCenter=true&width=700&height=60&lines=Trinity+Mods+File+Store+Bot;Store+Files+as+Private+Links;Convert+Files+to+Direct+Links;Enable+Premium+Access+for+Users;Add+Shortlinks+%26+Timers;Flexible%2C+Fast%2C+and+Secure" alt="Bot Features Animation">
 </p>
-
 
 <p align="center">
   <strong>Made with ❤️ by :</strong>
@@ -24,7 +22,11 @@
 
 ## 🤖 About
 
-**File Store Bot** by **Trinity Mods** is a powerful and flexible Telegram bot that enables secure file storage and sharing through unique links. With advanced features like premium access, shorteners, verification, and more — it’s your complete solution for managing file-based content on Telegram.
+**File Store Bot** by **Trinity Mods** is a powerful yet beginner-friendly Telegram bot for secure file storage and sharing via private/direct links. Built with minimal code and maximum performance, it is perfect for both developers and non-coders alike.
+
+🌀 **Fastest-in-class performance with minimum codebase**  
+🔧 **Just edit `config.py`, `start.py`, and `cbb.py` — or only `start.py` — and you're ready to go!**  
+🚀 **Ideal for beginners, deploy-ready in under 2 minutes**
 
 ---
 
@@ -46,6 +48,7 @@
 - 🛠️ Fully customizable bot (start, caption, force-sub, etc.)  
 - 🔗 Optional shortner integration with token verification mode  
 - 💸 Inbuilt UPI/QR payment system for premium content  
+- ⚡ Minimal setup required – perfect for beginners and non-coders
 
 ---
 
@@ -75,27 +78,27 @@ Choose your preferred platform:
 
 Or deploy manually on your VPS:
 
-```bash
+bash
 git clone https://github.com/Trinity-Mods/filestore.git
 cd filestore
 pip3 install -r requirements.txt
 python3 main.py
-```
+
 
 ---
 
 ## 📜 Commands Overview
 
-| Command | Description |
-|--------|-------------|
-| `/start` | Check if the bot is online |
-| `/ping` | Ping the bot |
-| `/stats` | Bot uptime |
-| `/users` | View registered user count |
-| `/batch` | Generate bulk links |
-| `/add_prem` | Add premium access (admin only) |
-| `/restart` | Restart the bot (admin only) |
-| `/admins`, `/add_admin`, `/del_admin` | Admin only commands |
+| Command                               | Description                     |
+| ------------------------------------- | ------------------------------- |
+| `/start`                              | Check if the bot is online      |
+| `/ping`                               | Ping the bot                    |
+| `/stats`                              | Bot uptime                      |
+| `/users`                              | View registered user count      |
+| `/batch`                              | Generate bulk links             |
+| `/add_prem`                           | Add premium access (admin only) |
+| `/restart`                            | Restart the bot (admin only)    |
+| `/admins`, `/add_admin`, `/del_admin` | Admin only commands             |
 
 ---
 
@@ -103,27 +106,39 @@ python3 main.py
 
 Refer to the full list in [`.envtemplate`](https://github.com/Trinity-Mods/filestore/blob/main/.envtemplate.txt). Key environment variables:
 
-- `TG_BOT_TOKEN` – Telegram Bot Token  
-- `APP_ID` – Telegram API ID  
-- `API_HASH` – Telegram API Hash  
+* `TG_BOT_TOKEN` – Telegram Bot Token
 
-- `DB_URL` – MongoDB URI  
-- `DB_NAME` – MongoDB Database Name  
-- `CHANNEL_ID` – Channel ID where files will be stored  
-- `OWNER_ID` – Telegram User ID of Bot Owner  
-- `OWNER_TAG` – Owner's Username for public contact
-- `DISABLE_CHANNEL_BUTTON` – Enable/Disable buttons in DB channel
+* `APP_ID` – Telegram API ID
 
-- `USE_SHORTLINK` – Set to True/False to enable link shortening  
-- `SHORTLINK_API_KEY` – Your API key for the shortener
-- `SHORTLINK_API_URL` – URL of your shortener website  
-- `VERIFY_EXPIRE` – Seconds before verification links expire  
-- `TUT_VID` – Optional video link to show how to use the bot  
+* `API_HASH` – Telegram API Hash
 
-- `USE_PAYMENT` – Set to True/False to enable UPI payments  
-- `UPI_ID` – UPI ID to accept payments  
-- `UPI_IMAGE_URL` – UPI QR image link  
-  
+* `DB_URL` – MongoDB URI
+
+* `DB_NAME` – MongoDB Database Name
+
+* `CHANNEL_ID` – Channel ID where files will be stored
+
+* `OWNER_ID` – Telegram User ID of Bot Owner
+
+* `OWNER_TAG` – Owner's Username for public contact
+
+* `DISABLE_CHANNEL_BUTTON` – Enable/Disable buttons in DB channel
+
+* `USE_SHORTLINK` – Set to True/False to enable link shortening
+
+* `SHORTLINK_API_KEY` – Your API key for the shortener
+
+* `SHORTLINK_API_URL` – URL of your shortener website
+
+* `VERIFY_EXPIRE` – Seconds before verification links expire
+
+* `TUT_VID` – Optional video link to show how to use the bot
+
+* `USE_PAYMENT` – Set to True/False to enable UPI payments
+
+* `UPI_ID` – UPI ID to accept payments
+
+* `UPI_IMAGE_URL` – UPI QR image link
 
 ---
 
@@ -145,9 +160,9 @@ Refer to the full list in [`.envtemplate`](https://github.com/Trinity-Mods/files
 
 If you find this project useful, please:
 
-- ⭐ Star the repo on GitHub  
-- 📢 Share it with others  
-- 🧑‍💻 Contribute or report issues  
+* ⭐ Star the repo on GitHub
+* 📢 Share it with others
+* 🧑‍💻 Contribute or report issues
 
 <p align="center">
   <a href="https://github.com/Trinity-Mods">
@@ -159,8 +174,8 @@ If you find this project useful, please:
   </a>
 </p>
 
-📢 **Telegram**: [@trinitymods](https://t.me/trinitymods)  
-🤝 **Collaborations / Custom Bots**: Contact [@the_universal_being](https://t.me/the_universal_being) directly on Telegram.
+📢 **Telegram**: [@trinitymods](https://t.me/trinitymods)
+🤝 **Collaborations / Custom Bots**: Contact [@the\_universal\_being](https://t.me/the_universal_being) directly on Telegram.
 
 ---
 
