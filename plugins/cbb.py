@@ -20,7 +20,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Developer: <a href='https://t.me/trinityXmods'>Trinity Mods</a>\n○ Language: <code>Python 3</code>\n○ GitHub: <a href='https://github.com/Trinity-Mods'>Trinity-Mods</a>\n○ Server: <a href='https://www.heroku.com/'>Heroku</a></b>",
+            text = f"<b>○ Developer: <a href='https://t.me/trinityXmods'>Trinity Mods</a>\n○ Language: <code>Python 3</code>\n○ Fueled By: <a href='https://t.me/infohub_updates'>InfoHub Updates</a>\n○ Server: <a href='https://www.ubuntu.com/'>Private VPS</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
