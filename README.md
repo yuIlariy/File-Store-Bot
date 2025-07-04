@@ -162,7 +162,7 @@ If you find this project useful, please:
   </a>
 </p>
 
-📢 **Telegram**: [@trinitymods](https://t.me/trinitymods)  
+📢 **Telegram**: [@trinityXmods](https://t.me/trinityXmods)  
 🤝 **Collaborations / Custom Bots**: Contact [@the_universal_being](https://t.me/the_universal_being) directly on Telegram.
 
 ---
