@@ -78,6 +78,7 @@ Choose your preferred platform:
 
 Or deploy manually on your VPS:
 
+bash
 git clone https://github.com/Trinity-Mods/filestore.git
 cd filestore
 pip3 install -r requirements.txt
