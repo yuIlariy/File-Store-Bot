@@ -104,7 +104,7 @@ python3 main.py
 
 ## ⚙️ Environment Variables
 
-Refer to the full list in [`.envtemplate`](https://github.com/Trinity-Mods/filestore/blob/main/.envtemplate.txt). Key environment variables:
+Key environment variables:
 
 * `TG_BOT_TOKEN` – Telegram Bot Token  
 * `APP_ID` – Telegram API ID  
