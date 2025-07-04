@@ -10,26 +10,8 @@
 # ────────────────────────────────────────────────────────────────
 
 
-import asyncio
 from bot import Bot
-from plugins.web_server import web_server
-from aiohttp import web
-
-async def start_all():
-    bot = Bot()
-    bot_task = asyncio.create_task(bot.run())  # async run method
-    
-    app = await web_server()
-    runner = web.AppRunner(app)
-    await runner.setup()
-    site = web.TCPSite(runner, "0.0.0.0", 8080)
-    await site.start()
-    print("✅ Web server running at http://0.0.0.0:8080")
-
-    await bot_task
-
-if __name__ == "__main__":
-    asyncio.run(start_all())
+Bot().run()
 
 
 # ────────────────────────────────────────────────────────────────
