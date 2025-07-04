@@ -20,7 +20,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-                        text = f"<b>○ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/trinityXmods'>ᴛʀɪɴɪᴛʏ ᴍᴏᴅꜱ</a>\n○ ʟᴀɴɢᴜᴀɢᴇ : <code>ᴘʏᴛʜᴏɴ3</code>\n○ ɢɪᴛʜᴜʙ : <a href='https://github.com/Trinity-Mods'>ᴛʀɪɴɪᴛʏ ᴍᴏᴅꜱ</a>\n○ ꜱᴇʀᴠᴇʀ : <a href='https://www.heroku.com/'>ʜᴇʀᴏᴋᴜ</a></a>",
+            text = f"<b>○ Developer: <a href='https://t.me/trinityXmods'>Trinity Mods</a>\n○ Language: <code>Python 3</code>\n○ GitHub: <a href='https://github.com/Trinity-Mods'>Trinity-Mods</a>\n○ Server: <a href='https://www.heroku.com/'>Heroku</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
@@ -38,7 +38,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             pass
     elif data == "buy_prem":
         await query.message.edit_text(
-            text=f"👋 @{query.from_user.username}, Prime Plans – {PRICE1}/7d, {PRICE2}/1m, {PRICE3}/3m, {PRICE4}/6m, {PRICE5}/1y | UPI: <code>{UPI_ID}</code> | <a href='{UPI_IMAGE_URL}'>Scan QR</a> | Send screenshot after payment | Need help or other payment options? Contact @the_universal_being",
+            text=f"👋 @{query.from_user.username}, here are our Prime Membership plans – {PRICE1}/7 days, {PRICE2}/1 month, {PRICE3}/3 months, {PRICE4}/6 months, {PRICE5}/1 year | 💵 UPI ID: <code>{UPI_ID}</code> | 📸 <a href='{UPI_IMAGE_URL}'>Scan QR Code</a> to pay | 🧾 After payment, send your screenshot | 💬 For help or alternative payment methods, contact @the_universal_being",
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup(
                 [   
@@ -50,7 +50,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                     ]
                 ]
             )
-            )
+        )
 
 # ────────────────────────────────────────────────────────────────
 
