@@ -229,11 +229,12 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("💝 ʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋꜱ?", url='https://t.me/infohub_updates/34')
+                    InlineKeyboardButton("💝 ᴛʀɪɴɪᴛʏ ᴍᴏᴅꜱ", url='https://t.me/trinityXmods')
                 ],[
                     InlineKeyboardButton("💸 ᴘʀᴇᴍɪᴜᴍ", callback_data="buy_prem"),
                     InlineKeyboardButton("😊 ᴀʙᴏᴜᴛ ᴍᴇ", callback_data="about")
                 ],[
+                    InlineKeyboardButton("🔄️ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url='https://github.com/Trinity-Mods/File-Store-Bot'),
                     InlineKeyboardButton("🔒 ᴄʟᴏꜱᴇ", callback_data="close")
                 ]
             ]
