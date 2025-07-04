@@ -20,7 +20,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-                        text = f"<b>○ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/infohub_updates'>ɪɴꜰᴏʜᴜʙ ᴜᴘᴅᴀᴛᴇꜱ</a>\n○ ʟᴀɴɢᴜᴀɢᴇ : <code>ᴘʏᴛʜᴏɴ3</code>\n○ ʟɪʙʀᴀʀʏ : <a href='https://t.me/Bookslibraryofficial'>ᴠᴇʟᴠᴇᴛ ᴘᴀɢᴇꜱ</a>\n○ ꜱᴇʀᴠᴇʀ : <a href='https://www.heroku.com/'>ʜᴇʀᴏᴋᴜ</a></a>",
+                        text = f"<b>○ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/trinityXmods'>ᴛʀɪɴɪᴛʏ ᴍᴏᴅꜱ</a>\n○ ʟᴀɴɢᴜᴀɢᴇ : <code>ᴘʏᴛʜᴏɴ3</code>\n○ ɢɪᴛʜᴜʙ : <a href='https://github.com/Trinity-Mods'>ᴛʀɪɴɪᴛʏ ᴍᴏᴅꜱ</a>\n○ ꜱᴇʀᴠᴇʀ : <a href='https://www.heroku.com/'>ʜᴇʀᴏᴋᴜ</a></a>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
@@ -38,7 +38,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             pass
     elif data == "buy_prem":
         await query.message.edit_text(
-            text=f"👋 {query.from_user.username}\n\n🎖️ Available Plans :\n\n● {PRICE1} For 7 Days Prime Membership\n\n● {PRICE2} For 1 Month Prime Membership\n\n● {PRICE3} For 3 Months Prime Membership\n\n● {PRICE4} For 6 Months Prime Membership\n\n● {PRICE5} For 1 Year Prime Membership\n\n\n💵 UPI ID -  <code>{UPI_ID}</code>\n\n\n📸 QR - ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ ({UPI_IMAGE_URL})\n\n♻️ If payment is not getting sent on above given QR code then inform admin on @infohubsupport_robot. They will give you new QR code\n\nPeople who are not interested in paying with INR, can contact @infohubsupport_robot for other payment options.\n\n\n‼️ Must Send Screenshot after payment!",
+            text=f"👋 @{query.from_user.username}, Prime Plans – {PRICE1}/7d, {PRICE2}/1m, {PRICE3}/3m, {PRICE4}/6m, {PRICE5}/1y | UPI: <code>{UPI_ID}</code> | <a href='{UPI_IMAGE_URL}'>Scan QR</a> | Send screenshot after payment | Need help or other payment options? Contact @the_universal_being",
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup(
                 [   
