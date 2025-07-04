@@ -78,7 +78,6 @@ Choose your preferred platform:
 
 Or deploy manually on your VPS:
 
-bash
 git clone https://github.com/Trinity-Mods/filestore.git
 cd filestore
 pip3 install -r requirements.txt
@@ -151,6 +150,10 @@ Refer to the full list in [`.envtemplate`](https://github.com/Trinity-Mods/files
   <br><br>
   <a href="https://t.me/velvetexams">
     <img src="https://img.shields.io/badge/Dr. Aarav Mehta-Assistant-blueviolet?style=for-the-badge&logo=telegram" alt="Velvet Exams">
+  </a>
+  <br><br>
+  <a href="https://t.me/ZOX404">
+    <img src="https://img.shields.io/badge/Z%E2%88%85X-Technician-orange?style=for-the-badge&logo=telegram" alt="Z∅X Technician">
   </a>
 </p>
 
