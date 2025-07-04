@@ -76,13 +76,14 @@ Choose your preferred platform:
 
 <br>
 
-# Or deploy manually on your VPS:
+### 🖥️ Or deploy manually on your VPS:
 
+```bash
 git clone https://github.com/Trinity-Mods/filestore.git
 cd filestore
 pip3 install -r requirements.txt
 python3 main.py
-
+```
 
 ---
 
@@ -105,39 +106,23 @@ python3 main.py
 
 Refer to the full list in [`.envtemplate`](https://github.com/Trinity-Mods/filestore/blob/main/.envtemplate.txt). Key environment variables:
 
-* `TG_BOT_TOKEN` – Telegram Bot Token
-
-* `APP_ID` – Telegram API ID
-
-* `API_HASH` – Telegram API Hash
-
-* `DB_URL` – MongoDB URI
-
-* `DB_NAME` – MongoDB Database Name
-
-* `CHANNEL_ID` – Channel ID where files will be stored
-
-* `OWNER_ID` – Telegram User ID of Bot Owner
-
-* `OWNER_TAG` – Owner's Username for public contact
-
-* `DISABLE_CHANNEL_BUTTON` – Enable/Disable buttons in DB channel
-
-* `USE_SHORTLINK` – Set to True/False to enable link shortening
-
-* `SHORTLINK_API_KEY` – Your API key for the shortener
-
-* `SHORTLINK_API_URL` – URL of your shortener website
-
-* `VERIFY_EXPIRE` – Seconds before verification links expire
-
-* `TUT_VID` – Optional video link to show how to use the bot
-
-* `USE_PAYMENT` – Set to True/False to enable UPI payments
-
-* `UPI_ID` – UPI ID to accept payments
-
-* `UPI_IMAGE_URL` – UPI QR image link
+* `TG_BOT_TOKEN` – Telegram Bot Token  
+* `APP_ID` – Telegram API ID  
+* `API_HASH` – Telegram API Hash  
+* `DB_URL` – MongoDB URI  
+* `DB_NAME` – MongoDB Database Name  
+* `CHANNEL_ID` – Channel ID where files will be stored  
+* `OWNER_ID` – Telegram User ID of Bot Owner  
+* `OWNER_TAG` – Owner's Username for public contact  
+* `DISABLE_CHANNEL_BUTTON` – Enable/Disable buttons in DB channel  
+* `USE_SHORTLINK` – Set to True/False to enable link shortening  
+* `SHORTLINK_API_KEY` – Your API key for the shortener  
+* `SHORTLINK_API_URL` – URL of your shortener website  
+* `VERIFY_EXPIRE` – Seconds before verification links expire  
+* `TUT_VID` – Optional video link to show how to use the bot  
+* `USE_PAYMENT` – Set to True/False to enable UPI payments  
+* `UPI_ID` – UPI ID to accept payments  
+* `UPI_IMAGE_URL` – UPI QR image link  
 
 ---
 
@@ -163,9 +148,9 @@ Refer to the full list in [`.envtemplate`](https://github.com/Trinity-Mods/files
 
 If you find this project useful, please:
 
-* ⭐ Star the repo on GitHub
-* 📢 Share it with others
-* 🧑‍💻 Contribute or report issues
+* ⭐ Star the repo on GitHub  
+* 📢 Share it with others  
+* 🧑‍💻 Contribute or report issues  
 
 <p align="center">
   <a href="https://github.com/Trinity-Mods">
@@ -177,8 +162,8 @@ If you find this project useful, please:
   </a>
 </p>
 
-📢 **Telegram**: [@trinitymods](https://t.me/trinitymods)
-🤝 **Collaborations / Custom Bots**: Contact [@the\_universal\_being](https://t.me/the_universal_being) directly on Telegram.
+📢 **Telegram**: [@trinitymods](https://t.me/trinitymods)  
+🤝 **Collaborations / Custom Bots**: Contact [@the_universal_being](https://t.me/the_universal_being) directly on Telegram.
 
 ---
 
