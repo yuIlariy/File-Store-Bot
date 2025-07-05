@@ -56,11 +56,15 @@
   <a href="https://heroku.com/deploy">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku">
   </a>
-  &nbsp;&nbsp;
+</p>
+
+<p align="center">
   <a href="https://railway.app/new/template/1jKLr4">
     <img src="https://railway.app/button.svg" alt="Deploy on Railway">
   </a>
-  &nbsp;&nbsp;
+</p>
+
+<p align="center">
   <a href="https://app.koyeb.com/deploy?type=git&repository=github.com/Trinity-Mods/filestore&branch=main&name=TrinityFileBot">
     <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy to Koyeb">
   </a>
@@ -124,11 +128,15 @@ Key environment variables:
   <a href="https://t.me/the_universal_being">
     <img src="https://img.shields.io/badge/Ragnar_Lothbrok-Mastermind-1e3a8a?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
-  &nbsp;&nbsp;
+</p>
+
+<p align="center">
   <a href="https://t.me/velvetexams">
     <img src="https://img.shields.io/badge/Dr.Aarav_Assistant-7c3aed?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
-  &nbsp;&nbsp;
+</p>
+
+<p align="center">
   <a href="https://t.me/ZOX404">
     <img src="https://img.shields.io/badge/Z%E2%88%85X_Technician-f97316?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
@@ -148,11 +156,15 @@ If you find this project useful, please:
   <a href="https://github.com/Trinity-Mods">
     <img src="https://img.shields.io/badge/Follow_on-GitHub-000000?style=for-the-badge&logo=github" />
   </a>
-  &nbsp;&nbsp;
+</p>
+
+<p align="center">
   <a href="https://t.me/trinityXmods">
     <img src="https://img.shields.io/badge/Updates-via_Telegram-0088cc?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
-  &nbsp;&nbsp;
+</p>
+
+<p align="center">
   <a href="https://t.me/+WfkDPKF3ztpjZDI1">
     <img src="https://img.shields.io/badge/Support_Group-059669?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
