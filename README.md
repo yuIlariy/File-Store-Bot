@@ -152,10 +152,28 @@ If you find this project useful, please:
   <a href="https://t.me/trinityXmods">
     <img src="https://img.shields.io/badge/Updates-via_Telegram-0088cc?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
+  &nbsp;&nbsp;
+  <a href="https://t.me/+WfkDPKF3ztpjZDI1">
+    <img src="https://img.shields.io/badge/Support_Group-059669?style=for-the-badge&logo=telegram&logoColor=white" />
+  </a>
 </p>
 
 📢 **Telegram**: [@trinityXmods](https://t.me/trinityXmods)
 🤝 **Custom Bots or Partnerships**: DM [@the\_universal\_being](https://t.me/the_universal_being)
+
+---
+
+<!-- 🎉 Dancing Girl Vibe -->
+
+<p align="center">
+  <img src="https://camo.githubusercontent.com/4335cd9e8b0dda4aae66a8d754ed960b2814cb03e398dbbd36d69a395346dfcf/68747470733a2f2f692e70696e696d672e636f6d2f6f726967696e616c732f65322f34352f32372f65323435323734303863616235373265623461356164633861656333616662352e676966" width="240px" />
+</p>
+
+<!-- 🧠 Closing Typing Outro -->
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=4000&pause=1000&color=22D3EE&center=true&vCenter=true&width=800&lines=This+isn't+just+a+repo+—+it's+a+revolution.;Ship+fast.+Secure+smart.+Support+the+tribe+⚡;" />
+</p>
 
 ---
 
