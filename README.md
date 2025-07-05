@@ -124,23 +124,29 @@ Key environment variables:
 
 ## 🧙‍♂️ Developers
 
+## 🧙‍♂️ Developers
+
 <p align="center">
   <a href="https://t.me/the_universal_being">
-    <img src="https://img.shields.io/badge/Ragnar_Lothbrok-Mastermind-1e3a8a?style=for-the-badge&logo=telegram&logoColor=white" />
+    <img src="https://img.shields.io/badge/Ragnar_Lothbrok-1e3a8a?style=for-the-badge&logo=telegram&logoColor=white" />
+    <img src="https://img.shields.io/badge/Mastermind-0f172a?style=for-the-badge&color=4f46e5" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://t.me/velvetexams">
-    <img src="https://img.shields.io/badge/Dr.Aarav_Assistant-7c3aed?style=for-the-badge&logo=telegram&logoColor=white" />
+    <img src="https://img.shields.io/badge/Dr.Aarav_Mehta-6b21a8?style=for-the-badge&logo=telegram&logoColor=white" />
+    <img src="https://img.shields.io/badge/Assistant-9333ea?style=for-the-badge&color=9333ea" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://t.me/ZOX404">
-    <img src="https://img.shields.io/badge/Z%E2%88%85X_Technician-f97316?style=for-the-badge&logo=telegram&logoColor=white" />
+    <img src="https://img.shields.io/badge/Z%E2%88%85X-ef4444?style=for-the-badge&logo=telegram&logoColor=white" />
+    <img src="https://img.shields.io/badge/Technician-f97316?style=for-the-badge&color=f97316" />
   </a>
 </p>
+
 
 ---
 
