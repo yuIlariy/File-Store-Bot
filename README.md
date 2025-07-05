@@ -4,9 +4,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2000&pause=500&color=33FFAA&center=true&vCenter=true&width=700&height=60&lines=Trinity+Mods+File+Store+Bot;Store+Files+as+Private+Links;Convert+Files+to+Direct+Links;Enable+Premium+Access+for+Users;Add+Shortlinks+%26+Timers;Flexible%2C+Fast%2C+and+Secure" alt="Bot Features Animation">
 </p>
 
-<p align="center">
-  <strong>Made with ❤️ by :</strong>
-</p>
+<p align="center"><strong>Made with ❤️ by :</strong></p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f7653b1e-e2b1-4897-9de1-f830aca391b6" width="240px" alt="Trinity Mods Logo"/>
@@ -54,21 +52,15 @@
 
 ## 🚀 Deployment Options
 
-Choose your preferred platform:
-
 <p align="center">
   <a href="https://heroku.com/deploy">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku">
   </a>
-</p>
-
-<p align="center">
+  &nbsp;&nbsp;
   <a href="https://railway.app/new/template/1jKLr4">
     <img src="https://railway.app/button.svg" alt="Deploy on Railway">
   </a>
-</p>
-
-<p align="center">
+  &nbsp;&nbsp;
   <a href="https://app.koyeb.com/deploy?type=git&repository=github.com/Trinity-Mods/filestore&branch=main&name=TrinityFileBot">
     <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy to Koyeb">
   </a>
@@ -78,12 +70,12 @@ Choose your preferred platform:
 
 ### 🖥️ Or deploy manually on your VPS:
 
-```bash
+bash
 git clone https://github.com/Trinity-Mods/filestore.git
 cd filestore
 pip3 install -r requirements.txt
 python3 main.py
-```
+
 
 ---
 
@@ -106,23 +98,23 @@ python3 main.py
 
 Key environment variables:
 
-* `TG_BOT_TOKEN` – Telegram Bot Token  
-* `APP_ID` – Telegram API ID  
-* `API_HASH` – Telegram API Hash  
-* `DB_URL` – MongoDB URI  
-* `DB_NAME` – MongoDB Database Name  
-* `CHANNEL_ID` – Channel ID where files will be stored  
-* `OWNER_ID` – Telegram User ID of Bot Owner  
-* `OWNER_TAG` – Owner's Username for public contact  
-* `DISABLE_CHANNEL_BUTTON` – Enable/Disable buttons in DB channel  
-* `USE_SHORTLINK` – Set to True/False to enable link shortening  
-* `SHORTLINK_API_KEY` – Your API key for the shortener  
-* `SHORTLINK_API_URL` – URL of your shortener website  
-* `VERIFY_EXPIRE` – Seconds before verification links expire  
-* `TUT_VID` – Optional video link to show how to use the bot  
-* `USE_PAYMENT` – Set to True/False to enable UPI payments  
-* `UPI_ID` – UPI ID to accept payments  
-* `UPI_IMAGE_URL` – UPI QR image link  
+* `TG_BOT_TOKEN` – Telegram Bot Token
+* `APP_ID` – Telegram API ID
+* `API_HASH` – Telegram API Hash
+* `DB_URL` – MongoDB URI
+* `DB_NAME` – MongoDB Database Name
+* `CHANNEL_ID` – Channel ID where files will be stored
+* `OWNER_ID` – Telegram User ID of Bot Owner
+* `OWNER_TAG` – Owner's Username for public contact
+* `DISABLE_CHANNEL_BUTTON` – Enable/Disable buttons in DB channel
+* `USE_SHORTLINK` – Set to True/False to enable link shortening
+* `SHORTLINK_API_KEY` – Your API key for the shortener
+* `SHORTLINK_API_URL` – URL of your shortener website
+* `VERIFY_EXPIRE` – Seconds before verification links expire
+* `TUT_VID` – Optional video link to show how to use the bot
+* `USE_PAYMENT` – Set to True/False to enable UPI payments
+* `UPI_ID` – UPI ID to accept payments
+* `UPI_IMAGE_URL` – UPI QR image link
 
 ---
 
@@ -130,15 +122,15 @@ Key environment variables:
 
 <p align="center">
   <a href="https://t.me/the_universal_being">
-    <img src="https://img.shields.io/badge/Ragnar Lothbrok-Mastermind-darkgreen?style=for-the-badge&logo=telegram" alt="The Universal Being">
+    <img src="https://img.shields.io/badge/Ragnar_Lothbrok-Mastermind-1e3a8a?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
-  <br><br>
+  &nbsp;&nbsp;
   <a href="https://t.me/velvetexams">
-    <img src="https://img.shields.io/badge/Dr. Aarav Mehta-Assistant-blueviolet?style=for-the-badge&logo=telegram" alt="Velvet Exams">
+    <img src="https://img.shields.io/badge/Dr.Aarav_Assistant-7c3aed?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
-  <br><br>
+  &nbsp;&nbsp;
   <a href="https://t.me/ZOX404">
-    <img src="https://img.shields.io/badge/Z%E2%88%85X-Technician-orange?style=for-the-badge&logo=telegram" alt="Z∅X Technician">
+    <img src="https://img.shields.io/badge/Z%E2%88%85X_Technician-f97316?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
 </p>
 
@@ -148,22 +140,22 @@ Key environment variables:
 
 If you find this project useful, please:
 
-* ⭐ Star the repo on GitHub  
-* 📢 Share it with others  
-* 🧑‍💻 Contribute or report issues  
+* ⭐ Star the repo on GitHub
+* 📢 Share it with others
+* 🧑‍💻 Contribute or report issues
 
 <p align="center">
   <a href="https://github.com/Trinity-Mods">
-    <img src="https://img.shields.io/badge/GitHub-Trinity_Mods-black?style=for-the-badge&logo=github" alt="GitHub">
+    <img src="https://img.shields.io/badge/Follow_on-GitHub-000000?style=for-the-badge&logo=github" />
   </a>
-  <br><br>
+  &nbsp;&nbsp;
   <a href="https://t.me/trinityXmods">
-    <img src="https://img.shields.io/badge/Trinity_Mods-Updates-blue?style=for-the-badge&logo=telegram" alt="Trinity_Mods">
+    <img src="https://img.shields.io/badge/Updates-via_Telegram-0088cc?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
 </p>
 
-📢 **Telegram**: [@trinityXmods](https://t.me/trinityXmods)  
-🤝 **Collaborations / Custom Bots**: Contact [@the_universal_being](https://t.me/the_universal_being) directly on Telegram.
+📢 **Telegram**: [@trinityXmods](https://t.me/trinityXmods)
+🤝 **Custom Bots or Partnerships**: DM [@the\_universal\_being](https://t.me/the_universal_being)
 
 ---
 
