@@ -170,7 +170,7 @@ If you find this project useful, please:
   </a>
 </p>
 
-📢 **Telegram**: [@trinityXmods](https://t.me/trinityXmods)
+
 🤝 **Custom Bots or Partnerships**: DM [@the\_universal\_being](https://t.me/the_universal_being)
 
 ---
