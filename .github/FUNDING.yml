@@ -1,17 +1,16 @@
-# These are supported funding model platforms
-
 github: []
-patreon: 
-open_collective: 
-ko_fi: 
-tidelift: 
-community_bridge: 
-liberapay: 
-issuehunt: 
-lfx_crowdfunding: 
-polar: 
-buy_me_a_coffee: 
-thanks_dev: 
-custom: 
+patreon:
+open_collective:
+ko_fi:
+tidelift:
+community_bridge:
+liberapay:
+issuehunt:
+lfx_crowdfunding:
+polar:
+buy_me_a_coffee:
+thanks_dev:
+custom:
   - 'https://t.me/the_universal_being'  # Telegram Contact
   - 'upi://pay?pa=sendrajbooks@fam&pn=Raj%20Som'  # UPI Payment Link
+
