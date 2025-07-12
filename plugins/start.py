@@ -229,7 +229,7 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("💝 ᴛʀɪɴɪᴛʏ ᴍᴏᴅꜱ", url='https://t.me/trinityXmods')
+                    InlineKeyboardButton("🚀 ᴍᴏᴅꜱ ꜱᴛᴏʀᴇ", url='https://t.me/modstorexd')
                 ],[
                     InlineKeyboardButton("💸 ᴘʀᴇᴍɪᴜᴍ", callback_data="buy_prem"),
                     InlineKeyboardButton("😊 ᴀʙᴏᴜᴛ ᴍᴇ", callback_data="about")
