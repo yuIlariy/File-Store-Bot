@@ -37,7 +37,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002841082687"))
 # Enter your personal Telegram user ID (you can get it by sending '/id' to https://t.me/MissRose_bot).
 OWNER_ID = int(os.environ.get("OWNER_ID", "6318135266"))
 #port set to default 8080, change according to your will.
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "8081")
 # Enter your MongoDB connection URL. You can use a free cloud database from MongoDB Atlas.
 DB_URL = os.environ.get("DB_URL", "")
 # Enter the name of your MongoDB database.
@@ -100,7 +100,7 @@ PRICE5 = os.environ.get("PRICE5", "₹285")
 # Message shown to users when they are required to join a channel or group (force subscription prompt).
 FORCE_MSG = os.environ.get("FORCE_MSG", "ʜᴇʟʟᴏ ᴛʜᴇʀᴇ {mention}!!👋\n\n<b>ɪɴ ᴏʀᴅᴇʀ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ꜰɪʟᴇꜱ, ʏᴏᴜ ᴀʀᴇ ʀᴇQᴜᴇꜱᴛᴇᴅ ᴛᴏ ꜱᴜᴘᴘᴏʀᴛ ᴜꜱ ʙʏ ᴊᴏɪɴɪɴɢ ᴛʜᴇ ᴄʜᴀɴɴᴇʟꜱ ᴀɴᴅ ɢʀᴏᴜᴘꜱ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ:</b>")
 # Enter a custom caption that will be auto-attached to files shared by the bot.
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "Bot is hosted by :\n\n<b>xspes</b>\n\nGithub: https://github.com/yuIlariy\nTelegram: https://t.me/xspes")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "Bot is hosted by :\n\n<b>xspes</b>\n\nPremiums: https://t.me/UnlimAPKexe\nUpdates: https://t.me/modstorexd")
 # Protect content from being forwarded or saved. Set to TRUE to enable, FALSE to disable (recommended: FALSE).
 PROTECT_CONTENT = True if os.environ.get("PROTECT_CONTENT", "FALSE") == "TRUE" else False
 # Use this option if you do not want buttons to appear on posts in the database channel.  
