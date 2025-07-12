@@ -15,16 +15,16 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 # Specify the Telegram channel or group ID that users must join (force-subscribe) before using the bot.
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", ""))
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", ""))
-FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", ""))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002841082687"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001592448284"))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001898749693"))
+FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1002037843175"))
 
 
 # Display the Bot's Uptime
 BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME </b>\n{uptime}")
 # Default reply sent to users when they message the bot directly.
-USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "Hi, I am made by @trinityXmods")
+USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "Hi, I am hosted by @xspes")
 
 # Paste your bot token here (get it from https://t.me/BotFather)
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "") 
@@ -33,9 +33,9 @@ APP_ID = int(os.environ.get("APP_ID", ""))
 # Provide the API Hash linked to your Telegram application (available at https://my.telegram.org/apps)
 API_HASH = os.environ.get("API_HASH", "")
 # Enter the channel ID of the database channel where all files will be stored.
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002841082687"))
 # Enter your personal Telegram user ID (you can get it by sending '/id' to https://t.me/MissRose_bot).
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6318135266"))
 #port set to default 8080, change according to your will.
 PORT = os.environ.get("PORT", "8080")
 # Enter your MongoDB connection URL. You can use a free cloud database from MongoDB Atlas.
@@ -48,7 +48,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "50"))
 # Message displayed to users when they click the Start button or send the /start command.
 START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʟʟᴏ ᴛʜᴇʀᴇ {mention}!!🌚\n\nɪ ᴀᴍ ᴅᴇꜱɪɢɴᴇᴅ ᴛᴏ ꜱʜᴀʀᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ꜱᴘᴇᴄɪᴀʟ ʟɪɴᴋꜱ!! 🪄\n\nɪ ᴡᴏʀᴋ ᴡɪᴛʜɪɴ ɪɴꜰᴏʜᴜʙ ɴᴇᴛᴡᴏʀᴋꜱ ᴏɴʟʏ ᴀɴᴅ ʏᴏᴜ ᴀʀᴇ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴜꜱᴇ ᴍᴇ! 🎀")
 # Enter your Telegram username (without @). A public username is required to use this bot.
-OWNER_TAG = os.environ.get("OWNER_TAG", "the_universal_being")
+OWNER_TAG = os.environ.get("OWNER_TAG", "xspes")
 # Time (in seconds) after which messages will be auto-deleted. Use 0 to keep messages permanently.
 TIME = int(os.environ.get("TIME", "600"))
 
@@ -100,18 +100,18 @@ PRICE5 = os.environ.get("PRICE5", "₹285")
 # Message shown to users when they are required to join a channel or group (force subscription prompt).
 FORCE_MSG = os.environ.get("FORCE_MSG", "ʜᴇʟʟᴏ ᴛʜᴇʀᴇ {mention}!!👋\n\n<b>ɪɴ ᴏʀᴅᴇʀ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ꜰɪʟᴇꜱ, ʏᴏᴜ ᴀʀᴇ ʀᴇQᴜᴇꜱᴛᴇᴅ ᴛᴏ ꜱᴜᴘᴘᴏʀᴛ ᴜꜱ ʙʏ ᴊᴏɪɴɪɴɢ ᴛʜᴇ ᴄʜᴀɴɴᴇʟꜱ ᴀɴᴅ ɢʀᴏᴜᴘꜱ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ:</b>")
 # Enter a custom caption that will be auto-attached to files shared by the bot.
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "Bot is designed with ❤️ by :\n\n<b>Trinity Mods</b>\n\nGithub: https://github.com/Trinity-Mods\nTelegram: https://t.me/trinityXmods")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "Bot is hosted by :\n\n<b>xspes</b>\n\nGithub: https://github.com/yuIlariy\nTelegram: https://t.me/xspes")
 # Protect content from being forwarded or saved. Set to TRUE to enable, FALSE to disable (recommended: FALSE).
 PROTECT_CONTENT = True if os.environ.get("PROTECT_CONTENT", "FALSE") == "TRUE" else False
 # Use this option if you do not want buttons to appear on posts in the database channel.  
 # Set to TRUE to disable buttons, False to keep them.
-DISABLE_CHANNEL_BUTTON = True if os.environ.get("DISABLE_CHANNEL_BUTTON", "TRUE") == "TRUE" else False
+DISABLE_CHANNEL_BUTTON = True if os.environ.get("DISABLE_CHANNEL_BUTTON", "False") == "TRUE" else False
 
 # Add the Telegram user IDs of the bot admins. Separate multiple IDs with a space.  
 # Example: 6011680723 1234567890
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "6011680723 5749718252 7911885594").split()):
+    for x in (os.environ.get("ADMINS", "6318135266").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
